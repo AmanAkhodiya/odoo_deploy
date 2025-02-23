@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- <template id="custom_product_page" inherit_id="website_sale.products" name="Custom Product
+    Page">
+        <xpath expr="." position="replace">
+            <t t-call="web.layout">
+                <div class="main">
+                    <div class="Frame_1171275258">
+                        <div class="cart">
+                            <img src="/custom_product_page/static/src/img/Vector_1.png"
+                                alt="Vector 1"
+                                class="vector_1" />
+                            <img src="/custom_product_page/static/src/img/Vector_2.png"
+                                alt="Custom Icon" class="vector_2" />
+                            <img src="/custom_product_page/static/src/img/Vector_3.png"
+                                alt="Custom Icon" class="vector_3" />
+                            <img src="/custom_product_page/static/src/img/Vector_4.png"
+                                alt="Custom Icon" class="vector_4" />
+                            <img src="/custom_product_page/static/src/img/Vector_5.png"
+                                alt="Custom Icon" class="vector_5" />
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </xpath>
+    </template> -->
+    <template id="custom_header_footer" inherit_id="website.layout" name="Custom Header and Footer">
+        <xpath expr="//header" position="replace">
+            <div class="custom_header">
+                <div class="Frame_1171275258">
+                    <div class="cart">
+                        <img src="/custom_product_page/static/src/img/Vector_1.png"
+                            alt="Vector 1"
+                            class="vector_1" />
+                        <img src="/custom_product_page/static/src/img/Vector_2.png"
+                            alt="Custom Icon" class="vector_2" />
+                        <img src="/custom_product_page/static/src/img/Vector_3.png"
+                            alt="Custom Icon" class="vector_3" />
+                        <img src="/custom_product_page/static/src/img/Vector_4.png"
+                            alt="Custom Icon" class="vector_4" />
+                        <img src="/custom_product_page/static/src/img/Vector_5.png"
+                            alt="Custom Icon" class="vector_5" />
+                    </div>
+                    <div class='heart'>
+                        <img src="/custom_product_page/static/src/img/heart_Vec.png"
+                            alt="heart_vec"
+                            class="heart_Vec" />
+                    </div>
+                    <div class='Frame_807'>
+                        <div class='outline_user_circle'>
+                            <img src="/custom_product_page/static/src/img/user_pro_vec.png"
+                                alt="user_pro_vec"
+                                class="user_pro_vec" />
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-container">
+                    <div class="nav-links">
+                        <a href="#" class="manifesto">Home</a>
+                        <a href="#" class="how_it_works">Buy Now</a>
+                        <a href="#" class="pricing">Why Us</a>
+                        <a href="#" class="country_explorer">What is Makhana?</a>
+                        <a href="#" class="for_partners">About Us</a>
+                        <a href="#" class="company">News and Media</a>
+                        <a href="#" class="contact_us">Contact Us</a>
+                    </div>
+                    <div class="rectangle_34624902"></div>
+                </div>
+                <img src="/custom_product_page/static/src/img/image_16.png"
+                    alt="image_16"
+                    class="image_16" />
+                <div class='Frame_56'>
+                </div>
+            </div>
+        </xpath>
+        <xpath expr="//footer" position="replace">
+
+        </xpath>
+    </template>
+    <template id="custom_homepage" inherit_id="website.homepage" name="Custom Homepage">
+        <xpath expr="//t[@t-call='website.layout']" position="replace">
+            <t t-call="website.layout">
+                <div class="main">
+                    <div class='header_content'>
+                        <div class='more_than_faster-Div'>
+                            <div class='group-1'>
+                                <div class='fill'></div>
+                                <div class='group-1820550687'>
+                                    <img src="/custom_product_page/static/src/img/image_40196.png"
+                                        alt="image_40196"
+                                        class="image_40196" />
+                                    <img src="/custom_product_page/static/src/img/image_40197.png"
+                                        alt="image_40197"
+                                        class="image_40197" />
+                                </div>
+                                <p class='more_than_faster'>More than Faster</p>
+                            </div>
+                            <div class="header_para">
+                            <p class="header_para-1">Light, crispy, and nutritious – enjoy</p>
+                            <p class="header_para-2">makhana anytime!</p>
+                            </div>
+                            <p class='header_para-3'>Madhubani Makhana – fresh, crunchy, and nutritious, right at your home!</p>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </xpath>
+    </template>
+
+    <!-- <template id="custom_product_page" inherit_id="website_sale.products" name="Custom Product
+    Page">
+        <xpath expr="." position="replace">
+            <t t-call="website.layout">
+                <div class="main">
+                    Your custom HTML here
+                </div>
+            </t>
+        </xpath>
+    </template> -->
+</odoo>

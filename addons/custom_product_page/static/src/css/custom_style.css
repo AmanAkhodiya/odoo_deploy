@@ -1,0 +1,399 @@
+.main {
+    width: 1920px;
+    height: 3341px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.custom_header {
+    position: absolute;
+    width: 1920px;
+    height: 84px;
+    left: 0px;
+    top: 1px;
+    border: Mixed solid;
+    border-image-source: radial-gradient(150.36% 227.1% at 8.75% 100%, #FFFFFF 0%, rgba(201, 201, 201, 0) 100%);
+
+
+}
+
+.Frame_1171275258 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+
+    position: absolute;
+    width: 196px;
+    height: 32px;
+    left: 1654px;
+    top: 27px;
+
+}
+
+.cart {
+    width: 32px;
+    height: 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.vector_1 {
+    position: absolute;
+    left: 2.95%;
+    right: 86.17%;
+    top: 25.01%;
+    bottom: 43.05%;
+
+}
+
+.vector_2 {
+    position: absolute;
+    left: 10.43%;
+    right: 87.08%;
+    top: 72.22%;
+    bottom: 12.5%;
+
+}
+
+.vector_3 {
+    position: absolute;
+    left: 3.85%;
+    right: 93.65%;
+    top: 72.22%;
+    bottom: 12.5%;
+
+}
+
+.vector_4 {
+    position: absolute;
+    left: 0.91%;
+    right: 88.21%;
+    top: 9.69%;
+    bottom: 27.81%;
+
+}
+
+.vector_5 {
+    position: absolute;
+    left: 0%;
+    right: 83.67%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.heart {
+    width: 32px;
+    height: 32px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+/* .heart_Vec {
+    position: absolute;
+    left: 9.38%;
+    right: 12.5%;
+    top: 15.62%;
+    bottom: 12.5%;
+} */
+
+.Frame_807 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 6px;
+    width: 32px;
+    height: 32px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.outline_user_circle {
+    width: 32px;
+    height: 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/* .user_pro_vec {
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+
+} */
+
+.nav-container {
+    position: absolute;
+    width: 1064px;
+    height: 30px;
+    left: 380px;
+    top: 28px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 58px;
+    position: absolute;
+    width: 1064px;
+    height: 27px;
+}
+
+.manifesto {
+    width: auto;
+    height: 27px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #452D16;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.how_it_works {
+    width: auto;
+    height: 27px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #101010;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-decoration: none;
+
+}
+
+.pricing {
+    width: auto;
+    height: 27px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #101010;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.country_explorer {
+    width: auto;
+    height: 27px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #101010;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+
+}
+
+.for_partners {
+    width: auto;
+    height: 27px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #101010;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+
+}
+
+.company {
+    width: auto;
+    height: 27px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #101010;
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+
+}
+
+.contact_us {
+    width: auto;
+    height: 27px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #101010;
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+
+}
+
+.rectangle_34624902 {
+    position: absolute;
+    width: 57px;
+    height: 3px;
+    top: 25px;
+    background: #452D16;
+    border-radius: 46px;
+}
+
+.image_16 {
+    position: absolute;
+    width: 100px;
+    height: 68px;
+    left: 70px;
+    top: 9px;
+    background: url(image.png);
+}
+
+.Frame_56 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    position: absolute;
+    width: 1920px;
+    height: 84px;
+    left: calc(50% - 1920px/2);
+    top: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header_content {
+    position: absolute;
+    width: 749px;
+    height: 542px;
+    left: 51px;
+    top: 135px;
+}
+
+.more_than_faster-Div {
+    position: absolute;
+    width: 214px;
+    height: 46px;
+}
+
+.group-1 {
+    position: absolute;
+    width: 214px;
+    height: 46px;
+}
+
+.group-1820550687 {
+    position: absolute;
+    width: 29px;
+    height: 23px;
+    left: 165px;
+    top: 13px;
+
+}
+
+.image_40197 {
+    position: absolute;
+    width: 29px;
+    height: 23px;
+    left: 10px;
+}
+
+.image_40196 {
+    position: absolute;
+    width: 29px;
+    height: 23px;
+}
+
+.more_than_faster {
+    position: absolute;
+    width: 136px;
+    height: 16px;
+    left: 27px;
+    top: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.fill {
+    position: absolute;
+    width: 214px;
+    height: 46px;
+    background: #B9A088;
+    border-radius: 23px;
+}
+
+.header_para {
+    position: absolute;
+    width: 749px;
+    height: 264px;
+    top: 60px;
+}
+
+.header_para-1 {
+    position: absolute;
+    font-family: 'Gotham Black';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 74px;
+    line-height: 88px;
+    letter-spacing: -0.01em;
+    color: #452D16;
+}
+
+.header_para-2 {
+    position: absolute;
+    top: 170px;
+    font-family: 'Gotham Black';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 74px;
+    line-height: 88px;
+    letter-spacing: -0.01em;
+    color: #FAAA3A;
+}
+
+.header_para-3 {
+position: absolute;
+width: 478px;
+height: 60px;
+top: 335px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.005em;
+color: #676767;
+}
