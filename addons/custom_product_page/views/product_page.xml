@@ -78,14 +78,14 @@
                             <p class='header_para-3'>Madhubani Makhana – fresh, crunchy, and
                                 nutritious, right at your home!</p>
                         </div>
-                        <div class='button_onw'>
+                        <a class='button_onw' href='#'>
                             <div class='group_1713'>
                                 <div class='group_1000002455'>
                                     <div class='rectangle_668'></div>
                                 </div>
                                 <p class='text_onw'>Buy Now</p>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class='Header_Image'>
                         <img src="/custom_product_page/static/src/img/image_40196-3.png"
@@ -115,7 +115,7 @@
                                 <p class='free_shiping'>Free Shipping</p>
                                 <p class='rs_675'>₹ 675.00</p>
                             </div>
-                            <div class='icon-2'>
+                            <a class='icon-2' href='www.google.com'>
                                 <div class='fill-3'></div>
                                 <div class='icon-2-1'>
                                     <img src="/custom_product_page/static/src/img/Vector_6.png"
@@ -128,7 +128,7 @@
                                         alt="Vector_8"
                                         class="Vector_8" />
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class='Group_1820550693'>
@@ -163,33 +163,32 @@
                                 <p class='text_menu'>All Category</p>
                             </div>
                             <div class='group_1820550686'>
-                                <div class='menu-2'>
+                                <div class='menu-2' id='menu'>
                                     <img src="/custom_product_page/static/src/img/image_40175.png"
                                         alt="image_40175"
                                         class="image_40175" />
                                     <p class='text_menu-2'>Raw Makhana</p>
                                 </div>
                             </div>
-                            <div class='menu-3'>
-                                <div class='rectangle-4'></div>
+                            <div class='menu-3' id='menu'>
                                 <img src="/custom_product_page/static/src/img/image_40197-3.png"
                                     alt="image_40197-3"
                                     class="image_40197-3" />
                                 <p class='text_menu-3'>Roasted Makhana</p>
                             </div>
-                            <div class='menu-4'>
+                            <div class='menu-4' id='menu'>
                                 <img src="/custom_product_page/static/src/img/image_40196-4.png"
                                     alt="image_40196-4"
                                     class="image_40197-3" />
                                 <p class='text_menu-4'>Makhana Pasta</p>
                             </div>
-                            <div class='menu-5'>
+                            <div class='menu-5' id='menu'>
                                 <img src="/custom_product_page/static/src/img/image_28.png"
                                     alt="image_28"
                                     class="image_40197-3" />
                                 <p class='text_menu-5'>Makhana Powder</p>
                             </div>
-                            <div class='menu-6'>
+                            <div class='menu-6' id='menu'>
                                 <img src="/custom_product_page/static/src/img/image_40175-4.png"
                                     alt="image_40175-4"
                                     class="image_40197-3" />
@@ -200,20 +199,604 @@
                     <div class='group_1820550708'>
                         <div class='group_1820550709'>
                             <div class='android_large-2'>
+                                <div class='group_1820550703'>
+                                    <div class='voice'>
+                                        <div class='ellipse'></div>
+                                    </div>
+                                    <div class='heart'>
+                                        <img src="/custom_product_page/static/src/img/icon_6.png"
+                                            alt="icon_6"
+                                            class="icon_6" />
+                                    </div>
+                                </div>
+                                <img src="/custom_product_page/static/src/img/image_40196-7.png"
+                                    alt="image_40196-7"
+                                    class="image_40196-7" />
                                 <div class='rectangle-5'></div>
                                 <div class='group_1820550701'>
-                                <div class='group_94'>
-                                <div class='frame_10'>
-                                <div class='star_icon_1'>
-                                <div class='star'>
-                                <div class='star_'></div>
+                                    <div class='group_94'>
+                                        <div class='frame_10'>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_half'></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class='rs_675-2'>₹ 675.00</p>
+                                    <p class='para_5_type'>5 types of Makhana available</p>
+                                    <p class='para_raw_makhana'>Raw Makhana</p>
                                 </div>
+                                <div class='frame_114'>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base'>
+                                            <p class='button_base_text'>Add To Cart</p>
+                                        </div>
+                                    </a>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base_2'>
+                                            <p class='button_base_text_2'>Buy Now</p>
+                                        </div>
+                                    </a>
                                 </div>
+                            </div>
+                            <div class='android_large-5'>
+                                <div class='group_1820550703'>
+                                    <div class='voice'>
+                                        <div class='ellipse'></div>
+                                    </div>
+                                    <div class='heart'>
+                                        <img src="/custom_product_page/static/src/img/icon_6.png"
+                                            alt="icon_6"
+                                            class="icon_6" />
+                                    </div>
                                 </div>
+                                <img src="/custom_product_page/static/src/img/image_40198.png"
+                                    alt="image_40198"
+                                    class="image_40198" />
+                                <div class='rectangle-5'></div>
+                                <div class='group_1820550701'>
+                                    <div class='group_94'>
+                                        <div class='frame_10'>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_half'></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class='rs_675-2'>₹ 675.00</p>
+                                    <p class='para_5_type'>5 types of Makhana available</p>
+                                    <p class='para_raw_makhana'>Raw Makhana</p>
                                 </div>
+                                <div class='frame_114'>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base'>
+                                            <p class='button_base_text'>Add To Cart</p>
+                                        </div>
+                                    </a>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base_2'>
+                                            <p class='button_base_text_2'>Buy Now</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class='android_large-6'>
+                                <div class='group_1820550703'>
+                                    <div class='voice'>
+                                        <div class='ellipse'></div>
+                                    </div>
+                                    <div class='heart'>
+                                        <img src="/custom_product_page/static/src/img/icon_6.png"
+                                            alt="icon_6"
+                                            class="icon_6" />
+                                    </div>
+                                </div>
+                                <img src="/custom_product_page/static/src/img/image_40175-3.png"
+                                    alt="image_40175-3"
+                                    class="image_40175-3" />
+                                <div class='rectangle-5'></div>
+                                <div class='group_1820550701'>
+                                    <div class='group_94'>
+                                        <div class='frame_10'>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_half'></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class='rs_675-2'>₹ 675.00</p>
+                                    <p class='para_5_type'>5 types of Makhana available</p>
+                                    <p class='para_raw_makhana'>Raw Makhana</p>
+                                </div>
+                                <div class='frame_114'>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base'>
+                                            <p class='button_base_text'>Add To Cart</p>
+                                        </div>
+                                    </a>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base_2'>
+                                            <p class='button_base_text_2'>Buy Now</p>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class='group_18205507091'>
+                        <div class='group_1820550709'>
+                            <div class='android_large-2'>
+                                <div class='group_1820550703'>
+                                    <div class='voice'>
+                                        <div class='ellipse'></div>
+                                    </div>
+                                    <div class='heart'>
+                                        <img src="/custom_product_page/static/src/img/icon_6.png"
+                                            alt="icon_6"
+                                            class="icon_6" />
+                                    </div>
+                                </div>
+                                <img src="/custom_product_page/static/src/img/image_40196-7.png"
+                                    alt="image_40196-7"
+                                    class="image_40196-7" />
+                                <div class='rectangle-5'></div>
+                                <div class='group_1820550701'>
+                                    <div class='group_94'>
+                                        <div class='frame_10'>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_half'></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class='rs_675-2'>₹ 675.00</p>
+                                    <p class='para_5_type'>5 types of Makhana available</p>
+                                    <p class='para_raw_makhana'>Raw Makhana</p>
+                                </div>
+                                <div class='frame_114'>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base'>
+                                            <p class='button_base_text'>Add To Cart</p>
+                                        </div>
+                                    </a>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base_2'>
+                                            <p class='button_base_text_2'>Buy Now</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class='android_large-5'>
+                                <div class='group_1820550703'>
+                                    <div class='voice'>
+                                        <div class='ellipse'></div>
+                                    </div>
+                                    <div class='heart'>
+                                        <img src="/custom_product_page/static/src/img/icon_6.png"
+                                            alt="icon_6"
+                                            class="icon_6" />
+                                    </div>
+                                </div>
+                                <img src="/custom_product_page/static/src/img/image_40198.png"
+                                    alt="image_40198"
+                                    class="image_40198" />
+                                <div class='rectangle-5'></div>
+                                <div class='group_1820550701'>
+                                    <div class='group_94'>
+                                        <div class='frame_10'>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_half'></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class='rs_675-2'>₹ 675.00</p>
+                                    <p class='para_5_type'>5 types of Makhana available</p>
+                                    <p class='para_raw_makhana'>Raw Makhana</p>
+                                </div>
+                                <div class='frame_114'>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base'>
+                                            <p class='button_base_text'>Add To Cart</p>
+                                        </div>
+                                    </a>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base_2'>
+                                            <p class='button_base_text_2'>Buy Now</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class='android_large-6'>
+                                <div class='group_1820550703'>
+                                    <div class='voice'>
+                                        <div class='ellipse'></div>
+                                    </div>
+                                    <div class='heart'>
+                                        <img src="/custom_product_page/static/src/img/icon_6.png"
+                                            alt="icon_6"
+                                            class="icon_6" />
+                                    </div>
+                                </div>
+                                <img src="/custom_product_page/static/src/img/image_40175-3.png"
+                                    alt="image_40175-3"
+                                    class="image_40175-3" />
+                                <div class='rectangle-5'></div>
+                                <div class='group_1820550701'>
+                                    <div class='group_94'>
+                                        <div class='frame_10'>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_half'></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class='rs_675-2'>₹ 675.00</p>
+                                    <p class='para_5_type'>5 types of Makhana available</p>
+                                    <p class='para_raw_makhana'>Raw Makhana</p>
+                                </div>
+                                <div class='frame_114'>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base'>
+                                            <p class='button_base_text'>Add To Cart</p>
+                                        </div>
+                                    </a>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base_2'>
+                                            <p class='button_base_text_2'>Buy Now</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='group_1820550710'>
+                        <div class='group_1820550709'>
+                            <div class='android_large-2'>
+                                <div class='group_1820550703'>
+                                    <div class='voice'>
+                                        <div class='ellipse'></div>
+                                    </div>
+                                    <div class='heart'>
+                                        <img src="/custom_product_page/static/src/img/icon_6.png"
+                                            alt="icon_6"
+                                            class="icon_6" />
+                                    </div>
+                                </div>
+                                <img src="/custom_product_page/static/src/img/image_40196-7.png"
+                                    alt="image_40196-7"
+                                    class="image_40196-7" />
+                                <div class='rectangle-5'></div>
+                                <div class='group_1820550701'>
+                                    <div class='group_94'>
+                                        <div class='frame_10'>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_half'></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class='rs_675-2'>₹ 675.00</p>
+                                    <p class='para_5_type'>5 types of Makhana available</p>
+                                    <p class='para_raw_makhana'>Raw Makhana</p>
+                                </div>
+                                <div class='frame_114'>
+                                    <a class='button' href='#'>
+                                        <div class='_Button_base'>
+                                            <p class='button_base_text'>Add To Cart</p>
+                                        </div>
+                                    </a>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base_2'>
+                                            <p class='button_base_text_2'>Buy Now</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class='android_large-5'>
+                                <div class='group_1820550703'>
+                                    <div class='voice'>
+                                        <div class='ellipse'></div>
+                                    </div>
+                                    <div class='heart'>
+                                        <img src="/custom_product_page/static/src/img/icon_6.png"
+                                            alt="icon_6"
+                                            class="icon_6" />
+                                    </div>
+                                </div>
+                                <img src="/custom_product_page/static/src/img/image_40198.png"
+                                    alt="image_40198"
+                                    class="image_40198" />
+                                <div class='rectangle-5'></div>
+                                <div class='group_1820550701'>
+                                    <div class='group_94'>
+                                        <div class='frame_10'>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_half'></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class='rs_675-2'>₹ 675.00</p>
+                                    <p class='para_5_type'>5 types of Makhana available</p>
+                                    <p class='para_raw_makhana'>Raw Makhana</p>
+                                </div>
+                                <div class='frame_114'>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base'>
+                                            <p class='button_base_text'>Add To Cart</p>
+                                        </div>
+                                    </a>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base_2'>
+                                            <p class='button_base_text_2'>Buy Now</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class='android_large-6'>
+                                <div class='group_1820550703'>
+                                    <div class='voice'>
+                                        <div class='ellipse'></div>
+                                    </div>
+                                    <div class='heart'>
+                                        <img src="/custom_product_page/static/src/img/icon_6.png"
+                                            alt="icon_6"
+                                            class="icon_6" />
+                                    </div>
+                                </div>
+                                <img src="/custom_product_page/static/src/img/image_40175-3.png"
+                                    alt="image_40175-3"
+                                    class="image_40175-3" />
+                                <div class='rectangle-5'></div>
+                                <div class='group_1820550701'>
+                                    <div class='group_94'>
+                                        <div class='frame_10'>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_'></div>
+                                                </div>
+                                            </div>
+                                            <div class='star_icon_1'>
+                                                <div class='star'>
+                                                    <div class='star_half'></div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class='rs_675-2'>₹ 675.00</p>
+                                    <p class='para_5_type'>5 types of Makhana available</p>
+                                    <p class='para_raw_makhana'>Raw Makhana</p>
+                                </div>
+                                <div class='frame_114'>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base'>
+                                            <p class='button_base_text'>Add To Cart</p>
+                                        </div>
+                                    </a>
+                                    <a class='button_2' href='#'>
+                                        <div class='_Button_base_2'>
+                                            <p class='button_base_text_2'>Buy Now</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='frame_131'>
+                        <p class='buy_yfm'>Buy Your Favourite Makhana’s</p>
+                    </div>
+                    <div class="dropdown">
+                        <select>
+                            <option value="popularity">Popularity</option>
+                            <option value="price-low">Price: Low to High</option>
+                            <option value="price-high">Price: High to Low</option>
+                            <option value="newest">Newest First</option>
+                        </select>
+                    </div>
+                    <div class="pagination">
+                        <a href="#" class="prev">←</a>
+                        <a href="#">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">4</a>
+                        <a href="#">5</a>
+                        <a href="#">6</a>
+                        <a href="#" class="next">→</a>
+                    </div>
+                    <div class='group_1820550776'>
                     </div>
                 </div>
             </t>
