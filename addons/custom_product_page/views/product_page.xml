@@ -1,29 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <!-- <template id="custom_product_page" inherit_id="website_sale.products" name="Custom Product
-    Page">
-        <xpath expr="." position="replace">
-            <t t-call="web.layout">
-                <div class="main">
-                    <div class="Frame_1171275258">
-                        <div class="cart">
-                            <img src="/custom_product_page/static/src/img/Vector_1.png"
-                                alt="Vector 1"
-                                class="vector_1" />
-                            <img src="/custom_product_page/static/src/img/Vector_2.png"
-                                alt="Custom Icon" class="vector_2" />
-                            <img src="/custom_product_page/static/src/img/Vector_3.png"
-                                alt="Custom Icon" class="vector_3" />
-                            <img src="/custom_product_page/static/src/img/Vector_4.png"
-                                alt="Custom Icon" class="vector_4" />
-                            <img src="/custom_product_page/static/src/img/Vector_5.png"
-                                alt="Custom Icon" class="vector_5" />
-                        </div>
-                    </div>
-                </div>
-            </t>
-        </xpath>
-    </template> -->
     <template id="custom_header_footer" inherit_id="website.layout" name="Custom Header and Footer">
         <xpath expr="//header" position="replace">
             <div class="custom_header">
@@ -96,10 +72,147 @@
                                 <p class='more_than_faster'>More than Faster</p>
                             </div>
                             <div class="header_para">
-                            <p class="header_para-1">Light, crispy, and nutritious – enjoy</p>
-                            <p class="header_para-2">makhana anytime!</p>
+                                <p class="header_para-1">Light, crispy, and nutritious – enjoy</p>
+                                <p class="header_para-2">makhana anytime!</p>
                             </div>
-                            <p class='header_para-3'>Madhubani Makhana – fresh, crunchy, and nutritious, right at your home!</p>
+                            <p class='header_para-3'>Madhubani Makhana – fresh, crunchy, and
+                                nutritious, right at your home!</p>
+                        </div>
+                        <div class='button_onw'>
+                            <div class='group_1713'>
+                                <div class='group_1000002455'>
+                                    <div class='rectangle_668'></div>
+                                </div>
+                                <p class='text_onw'>Buy Now</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='Header_Image'>
+                        <img src="/custom_product_page/static/src/img/image_40196-3.png"
+                            alt="image_40196-3"
+                            class="image_40196-3" />
+                        <div class='abstract'>
+                            <img src="/custom_product_page/static/src/img/icon-3.png"
+                                alt="icon-3"
+                                class="icon-3" />
+                            <img src="/custom_product_page/static/src/img/stroke.png"
+                                alt="stroke"
+                                class="stroke" />
+                        </div>
+                        <div class='card_02'>
+                            <img src="/custom_product_page/static/src/img/alarm-clock-icon.png"
+                                alt="alarm-clock-icon"
+                                class="alarm-clock-icon" />
+                            <p class='delivery_on_time'>Delivary
+                                On Time</p>
+                            <div class='fill-2'></div>
+                        </div>
+                        <div class='card_01'>
+                            <div class='fill-4'></div>
+                            <div class='info'>
+                                <div class='rectangle_672'></div>
+                                <p class='nutritious_makhana'>Nutritious Makhana</p>
+                                <p class='free_shiping'>Free Shipping</p>
+                                <p class='rs_675'>₹ 675.00</p>
+                            </div>
+                            <div class='icon-2'>
+                                <div class='fill-3'></div>
+                                <div class='icon-2-1'>
+                                    <img src="/custom_product_page/static/src/img/Vector_6.png"
+                                        alt="Vector_6"
+                                        class="Vector_6" />
+                                    <img src="/custom_product_page/static/src/img/Vector_7.png"
+                                        alt="Vector_7"
+                                        class="Vector_7" />
+                                    <img src="/custom_product_page/static/src/img/Vector_8.png"
+                                        alt="Vector_8"
+                                        class="Vector_8" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='Group_1820550693'>
+                        <div class='Group_1820550692'>
+                            <img src="/custom_product_page/static/src/img/image_40196-2.png"
+                                alt="image_40196-2"
+                                class="image_40196-2" />
+                            <img src="/custom_product_page/static/src/img/image_40200.png"
+                                alt="image_40200"
+                                class="image_40200" />
+                            <img src="/custom_product_page/static/src/img/image_40197-2.png"
+                                alt="image_40197-2"
+                                class="image_40197-2" />
+                            <img src="/custom_product_page/static/src/img/image_40201.png"
+                                alt="image_40201"
+                                class="image_40201" />
+                            <img src="/custom_product_page/static/src/img/image_40199.png"
+                                alt="image_40199"
+                                class="image_40199" />
+                        </div>
+                    </div>
+                    <div class='frame_1820551349'>
+                        <div class='categories'>
+                            <div class='menu-1'>
+                                <div class='plus-solid-1'>
+                                    <div class='group_plus'>
+                                        <img src="/custom_product_page/static/src/img/plus.png"
+                                            alt="plus"
+                                            class="plus" />
+                                    </div>
+                                </div>
+                                <p class='text_menu'>All Category</p>
+                            </div>
+                            <div class='group_1820550686'>
+                                <div class='menu-2'>
+                                    <img src="/custom_product_page/static/src/img/image_40175.png"
+                                        alt="image_40175"
+                                        class="image_40175" />
+                                    <p class='text_menu-2'>Raw Makhana</p>
+                                </div>
+                            </div>
+                            <div class='menu-3'>
+                                <div class='rectangle-4'></div>
+                                <img src="/custom_product_page/static/src/img/image_40197-3.png"
+                                    alt="image_40197-3"
+                                    class="image_40197-3" />
+                                <p class='text_menu-3'>Roasted Makhana</p>
+                            </div>
+                            <div class='menu-4'>
+                                <img src="/custom_product_page/static/src/img/image_40196-4.png"
+                                    alt="image_40196-4"
+                                    class="image_40197-3" />
+                                <p class='text_menu-4'>Makhana Pasta</p>
+                            </div>
+                            <div class='menu-5'>
+                                <img src="/custom_product_page/static/src/img/image_28.png"
+                                    alt="image_28"
+                                    class="image_40197-3" />
+                                <p class='text_menu-5'>Makhana Powder</p>
+                            </div>
+                            <div class='menu-6'>
+                                <img src="/custom_product_page/static/src/img/image_40175-4.png"
+                                    alt="image_40175-4"
+                                    class="image_40197-3" />
+                                <p class='text_menu-6'>Penne Makhana Pasta</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='group_1820550708'>
+                        <div class='group_1820550709'>
+                            <div class='android_large-2'>
+                                <div class='rectangle-5'></div>
+                                <div class='group_1820550701'>
+                                <div class='group_94'>
+                                <div class='frame_10'>
+                                <div class='star_icon_1'>
+                                <div class='star'>
+                                <div class='star_'></div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -11,6 +11,8 @@ services:
       - data:/var/lib/odoo
       - ./:/etc/odoo
       - ./addons:/mnt/extra-addons
+    entrypoint: ["/bin/bash", "-c", "odoo -u custom_product_page --without-demo=all"]
+
   psql:
     image: postgres:13
     env_file: .env
@@ -19,3 +21,5 @@ services:
 volumes:
   data:
   db:
+# command: odoo --db_host=psql --db_user=odoo16 --db_password=odoo16 --db_name=CPP -u custom_product_page --without-demo=all
+
