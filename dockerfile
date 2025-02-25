@@ -1,17 +1,29 @@
-# Use the official Odoo image
-FROM odoo:18 
+# Use an official Odoo base image
+FROM odoo:17  # Change this if using a different version
 
-# Set the working directory
-WORKDIR /opt/odoo
+# Set environment variables
+ENV DEBIAN_FRONTEND=noninteractive
 
-# Copy custom addons and configuration (if any)
-COPY ./addons /mnt/extra-addons
-COPY ./odoo.conf /etc/odoo/odoo.conf
+# Install required system dependencies
+RUN apt-get update && apt-get install -y \
+    python3-pip \
+    python3-venv \
+    postgresql-client \
+    && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Ensure proper permissions for addons
-RUN chmod -R 777 /mnt/extra-addons
+# Set working directory
+WORKDIR /odoo
 
-# Expose Odoo's default port
+# Copy the requirements file
+COPY requirements.txt /odoo/requirements.txt
+
+# Create and activate a virtual environment
+RUN python3 -m venv venv && \
+    . venv/bin/activate && \
+    pip install --upgrade pip && \
+    pip install -r requirements.txt
+
+# Expose the default Odoo port
 EXPOSE 8069
 
 # Start Odoo
