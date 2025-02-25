@@ -17,7 +17,7 @@
                         <img src="/custom_product_page/static/src/img/Vector_5.png"
                             alt="Custom Icon" class="vector_5" />
                     </div>
-                    <div class='heart'>
+                    <div class='heart_header'>
                         <img src="/custom_product_page/static/src/img/heart_Vec.png"
                             alt="heart_vec"
                             class="heart_Vec" />
@@ -50,7 +50,153 @@
             </div>
         </xpath>
         <xpath expr="//footer" position="replace">
+            <div class='custom_footer'>
+                <div class='ractangle_34625027' />
+                <p class='copyright'>Copyright © 2025 Madhubani Makhana. All Right Reserved.</p>
+                <div class='group_1820550775'>
+                    <div class='group_1820550766'>
+                        <img src="/custom_product_page/static/src/img/Rectangle_34624976.png"
+                            alt="Rectangle_34624976"
+                            class="rectangle_34624976" />
+                        <img src="/custom_product_page/static/src/img/Rectangle_34624975.png"
+                            alt="Rectangle_34624975"
+                            class="rectangle_34624975" />
+                    </div>
+                    <div class='group_1820550774'>
+                        <div class='mask_group'>
+                            <div class="image_40208">
+                                <img src="/custom_product_page/static/src/img/image__40207.png"
+                                    alt="image_40207"
+                                    class="image_40207" />
+                            </div>
+                        </div>
 
+                        <div class='frame_1820551368'>
+                            <p class='quick_links'>QUICK LINKS</p>
+                            <div class='frame_1820551365'>
+                                <a class='footer_anchor' href='#'>Home</a>
+                                <a class='footer_anchor' href='#'>About US</a>
+                                <a class='footer_anchor' href='#'>Products</a>
+                                <a class='footer_anchor' href='#'>Privacy Policy</a>
+                                <a class='footer_anchor' href='#'>Contact US</a>
+                            </div>
+                        </div>
+                        <div class='frame_1820551370'>
+                            <p class='quick_links'>SITE LINKS</p>
+                            <div class='frame_1820551365'>
+                                <a class='footer_anchor' href='#'>Privacy Policy</a>
+                                <a class='footer_anchor' href='#'>Terms of Use</a>
+                                <a class='footer_anchor' href='#'>Sales &amp; Refunds</a>
+                                <a class='footer_anchor' href='#'>Legal</a>
+                                <a class='footer_anchor' href='#'>Site Map</a>
+                            </div>
+                        </div>
+                        <div class="frame_1820551372">
+                            <p class='locations'>LOCATIONS</p>
+                            <div class='frame_1820551371'>
+                                <div class='group_1820550769'>
+                                    <div class='loc_icon'>
+                                        <img
+                                            src="/custom_product_page/static/src/img/loc_icon-1.png"
+                                            alt="loc_icon-1"
+                                            class="loc_icon-1" />
+                                        <img
+                                            src="/custom_product_page/static/src/img/loc_icon-2.png"
+                                            alt="loc_icon-2"
+                                            class="loc_icon-2" />
+                                    </div>
+                                    <p class='loc_text'><strong>INDIA</strong> (Manufacturing)
+                                        Madhubani Makhana Pvt Ltd. W. No.1, Laheria Ganj, Madhubani,
+                                        Bihar, India, 847211</p>
+                                </div>
+                                <div class='group_1820550768'>
+                                    <div class='group_1820550769'>
+                                        <div class='loc_icon'>
+                                            <img
+                                                src="/custom_product_page/static/src/img/loc_icon-1.png"
+                                                alt="loc_icon-1"
+                                                class="loc_icon-1" />
+                                            <img
+                                                src="/custom_product_page/static/src/img/loc_icon-2.png"
+                                                alt="loc_icon-2"
+                                                class="loc_icon-2" />
+                                        </div>
+                                        <p class='loc_text'><strong>United Kingdom</strong> 71-75
+                                            Shelton Street, London, WC2H 9JQ, United Kingdom</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='group_1820550773'>
+                            <div class='group_1820550771'>
+                                <p class='follow_us_on'>
+                                    FOLLOW US ON
+                                </p>
+                                <div class='line_489' />
+                                <div class='group_1820550770'>
+                                    <a class='icon_instagram' href='#'>
+                                        <img
+                                            src="/custom_product_page/static/src/img/instagram.png"
+                                            alt="instagram"
+                                            class="icon" />
+                                    </a>
+                                    <a class='icon_facebook' href='#'>
+                                        <img
+                                            src="/custom_product_page/static/src/img/facebook.png"
+                                            alt="facebook"
+                                            class="icon" />
+                                    </a>
+                                    <a class='icon_youtube' href='#'>
+                                        <img
+                                            src="/custom_product_page/static/src/img/youtube.png"
+                                            alt="youtube"
+                                            class="icon" />
+                                    </a>
+                                    <a class='icon_linkedin' href='#'>
+                                        <img
+                                            src="/custom_product_page/static/src/img/linkedin.png"
+                                            alt="linkedin"
+                                            class="icon" />
+                                    </a>
+                                </div>
+                                <div class='group_1820550772'>
+                                    <p class='contact_with_us'>
+                                        CONTACT WITH US
+                                    </p>
+                                    <div class='line_490' />
+                                    <div class='frame_156849'>
+                                        <div class='frame_156848'>
+                                            <div class="whtsp_num">
+                                                <p style='margin-top:5px;'>+91 - 8102926899</p>
+                                            </div>
+                                            <div class='noun-telephone-3129133'>
+                                                <div class='ellipse_whtsp'></div>
+                                                <div class='group_whtsp'>
+                                                    <img
+                                                        src="/custom_product_page/static/src/img/icon_whtsp.png"
+                                                        alt="icon_whtsp"
+                                                        class="icon_whtsp" />
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class='frame_156847'>
+                                            <img
+                                                src="/custom_product_page/static/src/img/icon_email.png"
+                                                alt="icon_email"
+                                                class="icon_email" />
+                                            <div class="email">
+                                                <p style='margin-top:5px;'>info@makhana.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </xpath>
     </template>
     <template id="custom_homepage" inherit_id="website.homepage" name="Custom Homepage">
@@ -796,21 +942,8 @@
                         <a href="#">6</a>
                         <a href="#" class="next">→</a>
                     </div>
-                    <div class='group_1820550776'>
-                    </div>
                 </div>
             </t>
         </xpath>
     </template>
-
-    <!-- <template id="custom_product_page" inherit_id="website_sale.products" name="Custom Product
-    Page">
-        <xpath expr="." position="replace">
-            <t t-call="website.layout">
-                <div class="main">
-                    Your custom HTML here
-                </div>
-            </t>
-        </xpath>
-    </template> -->
 </odoo>
