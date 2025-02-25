@@ -1,2 +1,2 @@
-odoo==16
-python==3.11
+odoo
+python
