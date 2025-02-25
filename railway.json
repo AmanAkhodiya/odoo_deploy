@@ -1,0 +1,23 @@
+{
+    "$schema": "https://schema.up.railway.app/railway.schema.json",
+    "build": {
+      "builder": "NIXPACKS",
+      "nixpacksPlan": {
+        "providers": ["python"],
+        "phases": {
+          "setup": {
+            "nixPkgs": ["...", "odoo"]
+          },
+          "npm:install": {
+            "dependsOn": ["setup"],
+            "cmds": ["npm ci"]
+          }
+        }
+      }
+    },
+    "deploy": {
+      "startCommand": "systemctl start odoo",
+      "restartPolicyType": "ON_FAILURE",
+      "restartPolicyMaxRetries": 10
+    }
+  }
