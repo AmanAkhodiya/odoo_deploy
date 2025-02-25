@@ -1,5 +1,5 @@
 # Use an official Odoo base image
-FROM odoo:17  # Change this if using a different version
+FROM odoo:17
 
 # Set environment variables
 ENV DEBIAN_FRONTEND=noninteractive
