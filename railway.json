@@ -7,7 +7,7 @@
       }
     },
     "deploy": {
-      "startCommand": "systemctl start odoo",
+      "startCommand": "sudo systemctl start odoo",
       "restartPolicyType": "ON_FAILURE",
       "restartPolicyMaxRetries": 10
     }
