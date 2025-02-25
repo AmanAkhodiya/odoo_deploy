@@ -86,9 +86,7 @@
 .heart_header {
     width: 32px;
     height: 32px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    margin-top: 5px;
 }
 
 /* .heart_Vec {
@@ -279,7 +277,6 @@
     align-items: center;
     padding: 10px;
     gap: 10px;
-    position: absolute;
     width: 1920px;
     height: 84px;
     left: calc(50% - 1920px/2);
@@ -460,8 +457,6 @@
     position: absolute;
     width: 887px;
     height: 523.37px;
-    left: 920px;
-    top: 153.63px;
 }
 
 .card_02 {

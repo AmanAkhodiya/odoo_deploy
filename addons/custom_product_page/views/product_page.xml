@@ -4,7 +4,7 @@
         <xpath expr="//header" position="replace">
             <div class="custom_header">
                 <div class="Frame_1171275258">
-                    <div class="cart">
+                    <a class="cart" href='#'>
                         <img src="/custom_product_page/static/src/img/Vector_1.png"
                             alt="Vector 1"
                             class="vector_1" />
@@ -16,19 +16,19 @@
                             alt="Custom Icon" class="vector_4" />
                         <img src="/custom_product_page/static/src/img/Vector_5.png"
                             alt="Custom Icon" class="vector_5" />
-                    </div>
-                    <div class='heart_header'>
+                    </a>
+                    <a class='heart_header' href='#'>
                         <img src="/custom_product_page/static/src/img/heart_Vec.png"
                             alt="heart_vec"
                             class="heart_Vec" />
-                    </div>
-                    <div class='Frame_807'>
+                    </a>
+                    <a class='Frame_807' href='#'>
                         <div class='outline_user_circle'>
                             <img src="/custom_product_page/static/src/img/user_pro_vec.png"
                                 alt="user_pro_vec"
                                 class="user_pro_vec" />
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="nav-container">
                     <div class="nav-links">
@@ -40,7 +40,7 @@
                         <a href="#" class="company">News and Media</a>
                         <a href="#" class="contact_us">Contact Us</a>
                     </div>
-                    <div class="rectangle_34624902"></div>
+                    <!-- <div class="rectangle_34624902"></div> -->
                 </div>
                 <img src="/custom_product_page/static/src/img/image_16.png"
                     alt="image_16"
@@ -233,51 +233,51 @@
                             </div>
                         </a>
                     </div>
-                    <div class='Header_Image'>
-                        <img src="/custom_product_page/static/src/img/image_40196-3.png"
-                            alt="image_40196-3"
-                            class="image_40196-3" />
-                        <div class='abstract'>
-                            <img src="/custom_product_page/static/src/img/icon-3.png"
-                                alt="icon-3"
-                                class="icon-3" />
-                            <img src="/custom_product_page/static/src/img/stroke.png"
-                                alt="stroke"
-                                class="stroke" />
-                        </div>
-                        <div class='card_02'>
-                            <img src="/custom_product_page/static/src/img/alarm-clock-icon.png"
-                                alt="alarm-clock-icon"
-                                class="alarm-clock-icon" />
-                            <p class='delivery_on_time'>Delivary
-                                On Time</p>
-                            <div class='fill-2'></div>
-                        </div>
-                        <div class='card_01'>
-                            <div class='fill-4'></div>
-                            <div class='info'>
-                                <div class='rectangle_672'></div>
-                                <p class='nutritious_makhana'>Nutritious Makhana</p>
-                                <p class='free_shiping'>Free Shipping</p>
-                                <p class='rs_675'>₹ 675.00</p>
-                            </div>
-                            <a class='icon-2' href='www.google.com'>
-                                <div class='fill-3'></div>
-                                <div class='icon-2-1'>
-                                    <img src="/custom_product_page/static/src/img/Vector_6.png"
-                                        alt="Vector_6"
-                                        class="Vector_6" />
-                                    <img src="/custom_product_page/static/src/img/Vector_7.png"
-                                        alt="Vector_7"
-                                        class="Vector_7" />
-                                    <img src="/custom_product_page/static/src/img/Vector_8.png"
-                                        alt="Vector_8"
-                                        class="Vector_8" />
-                                </div>
-                            </a>
-                        </div>
-                    </div>
                     <div class='Group_1820550693'>
+                        <div class='Header_Image'>
+                            <img src="/custom_product_page/static/src/img/image_40196-3.png"
+                                alt="image_40196-3"
+                                class="image_40196-3" />
+                            <div class='abstract'>
+                                <img src="/custom_product_page/static/src/img/icon-3.png"
+                                    alt="icon-3"
+                                    class="icon-3" />
+                                <img src="/custom_product_page/static/src/img/stroke.png"
+                                    alt="stroke"
+                                    class="stroke" />
+                            </div>
+                            <div class='card_02'>
+                                <img src="/custom_product_page/static/src/img/alarm-clock-icon.png"
+                                    alt="alarm-clock-icon"
+                                    class="alarm-clock-icon" />
+                                <p class='delivery_on_time'>Delivary
+                                    On Time</p>
+                                <div class='fill-2'></div>
+                            </div>
+                            <div class='card_01'>
+                                <div class='fill-4'></div>
+                                <div class='info'>
+                                    <div class='rectangle_672'></div>
+                                    <p class='nutritious_makhana'>Nutritious Makhana</p>
+                                    <p class='free_shiping'>Free Shipping</p>
+                                    <p class='rs_675'>₹ 675.00</p>
+                                </div>
+                                <a class='icon-2' href='www.google.com'>
+                                    <div class='fill-3'></div>
+                                    <div class='icon-2-1'>
+                                        <img src="/custom_product_page/static/src/img/Vector_6.png"
+                                            alt="Vector_6"
+                                            class="Vector_6" />
+                                        <img src="/custom_product_page/static/src/img/Vector_7.png"
+                                            alt="Vector_7"
+                                            class="Vector_7" />
+                                        <img src="/custom_product_page/static/src/img/Vector_8.png"
+                                            alt="Vector_8"
+                                            class="Vector_8" />
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                         <div class='Group_1820550692'>
                             <img src="/custom_product_page/static/src/img/image_40196-2.png"
                                 alt="image_40196-2"
@@ -298,7 +298,7 @@
                     </div>
                     <div class='frame_1820551349'>
                         <div class='categories'>
-                            <div class='menu-1'>
+                            <a class='menu-1' href='#'>
                                 <div class='plus-solid-1'>
                                     <div class='group_plus'>
                                         <img src="/custom_product_page/static/src/img/plus.png"
@@ -307,39 +307,39 @@
                                     </div>
                                 </div>
                                 <p class='text_menu'>All Category</p>
-                            </div>
+                            </a>
                             <div class='group_1820550686'>
-                                <div class='menu-2' id='menu'>
+                                <a class='menu-2' id='menu' href='#'>
                                     <img src="/custom_product_page/static/src/img/image_40175.png"
                                         alt="image_40175"
                                         class="image_40175" />
                                     <p class='text_menu-2'>Raw Makhana</p>
-                                </div>
+                                </a>
                             </div>
-                            <div class='menu-3' id='menu'>
+                            <a href='#' class='menu-3' id='menu'>
                                 <img src="/custom_product_page/static/src/img/image_40197-3.png"
                                     alt="image_40197-3"
                                     class="image_40197-3" />
                                 <p class='text_menu-3'>Roasted Makhana</p>
-                            </div>
-                            <div class='menu-4' id='menu'>
+                            </a>
+                            <a href='#' class='menu-4' id='menu'>
                                 <img src="/custom_product_page/static/src/img/image_40196-4.png"
                                     alt="image_40196-4"
                                     class="image_40197-3" />
                                 <p class='text_menu-4'>Makhana Pasta</p>
-                            </div>
-                            <div class='menu-5' id='menu'>
+                            </a>
+                            <a href='#' class='menu-5' id='menu'>
                                 <img src="/custom_product_page/static/src/img/image_28.png"
                                     alt="image_28"
                                     class="image_40197-3" />
                                 <p class='text_menu-5'>Makhana Powder</p>
-                            </div>
-                            <div class='menu-6' id='menu'>
+                            </a>
+                            <a href='#' class='menu-6' id='menu'>
                                 <img src="/custom_product_page/static/src/img/image_40175-4.png"
                                     alt="image_40175-4"
                                     class="image_40197-3" />
                                 <p class='text_menu-6'>Penne Makhana Pasta</p>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class='group_1820550708'>
