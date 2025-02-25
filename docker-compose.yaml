@@ -21,5 +21,4 @@ services:
 volumes:
   data:
   db:
-# command: odoo --db_host=psql --db_user=odoo16 --db_password=odoo16 --db_name=CPP -u custom_product_page --without-demo=all
 
