@@ -1,30 +1,20 @@
-# Use an official Odoo base image
-FROM odoo:16
+# Use the official Python image
+FROM python:3.12
 
-# Set environment variables
-ENV DEBIAN_FRONTEND=noninteractive
+# Set the working directory inside the container
+WORKDIR /app
 
-# Install required system dependencies
-RUN apt-get update && apt-get install -y \
-    python3-pip \
-    python3-venv \
-    postgresql-client \
-    && apt-get clean && rm -rf /var/lib/apt/lists/*
-
-COPY odoo.conf /etc/odoo/odoo.conf
-COPY . /mnt/extra-addons
-
-# Copy the requirements.txt file to the container
+# Copy the requirements file
 COPY requirements.txt .
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Set working directory
-WORKDIR /odoo
+# Copy the application files
+COPY . .
 
-# Expose the default Odoo port
-EXPOSE 8069
+# Ensure Odoo is installed
+RUN python -c "import odoo; print(odoo.__version__)"
 
-# Start Odoo
-CMD ["odoo"]
+# Set execute permissions for odoo-bin
+RUN chmod +x odoo-bin
