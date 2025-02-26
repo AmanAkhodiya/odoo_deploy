@@ -1,15 +1,24 @@
 # Use the official Odoo image as the base
 FROM odoo:16.0
 
-# Create directories for logs and data
-RUN mkdir -p /var/log/odoo && \
-    mkdir -p /var/lib/odoo
+# Install dependencies
+RUN apt-get update && apt-get install -y gettext-base
 
 # Copy custom modules and configuration file
-COPY ./addons /mnt/extra-addons
+COPY ./custom_modules /mnt/extra-addons
+COPY ./odoo.conf /etc/odoo/odoo.conf.template
+
+# Substitute environment variables in odoo.conf
+RUN envsubst < /etc/odoo/odoo.conf.template > /etc/odoo/odoo.conf
+
+# Copy entrypoint script
+COPY ./entrypoint.sh /entrypoint.sh
+
+# Make the entrypoint script executable
+RUN chmod +x /entrypoint.sh
+
+# Set entrypoint
+ENTRYPOINT ["/entrypoint.sh"]
 
 # Expose the Odoo port
 EXPOSE 8069
-
-# Set the default command to run Odoo
-CMD ["odoo"]
