@@ -14,15 +14,6 @@ RUN apt-get update && apt-get install -y \
 # Set working directory
 WORKDIR /odoo
 
-# # Copy the requirements file
-# COPY requirements.txt /odoo/requirements.txt
-
-# # Create and activate a virtual environment
-# RUN python3 -m venv venv && \
-#     . venv/bin/activate && \
-#     pip install --upgrade pip && \
-#     pip install -r requirements.txt
-
 # Expose the default Odoo port
 EXPOSE 8069
 
