@@ -5,8 +5,9 @@ FROM odoo:16.0
 COPY ./addons /mnt/extra-addons
 COPY ./odoo.conf /etc/odoo/odoo.conf.template
 
-# Copy entrypoint script
 COPY --chown=odoo:odoo ./entrypoint.sh /entrypoint.sh
+
+# Make the entrypoint script executable
 RUN chmod +x /entrypoint.sh
 
 # Make the entrypoint script executable
