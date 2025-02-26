@@ -1,14 +1,14 @@
 {
-    "$schema": "https://schema.up.railway.app/railway.schema.json",
-    "build": {
+  "$schema": "https://schema.railway.app/railway.schema.json",
+  "build": {
       "builder": "NIXPACKS",
       "nixpacksPlan": {
-        "providers": ["python"]
+          "providers": ["python"]
       }
-    },
-    "deploy": {
-      "startCommand": "systemctl restart odoo18.service",
+  },
+  "deploy": {
+      "startCommand": "python3 odoo-bin --config=/etc/odoo/odoo.conf",
       "restartPolicyType": "ON_FAILURE",
       "restartPolicyMaxRetries": 10
-    }
   }
+}
