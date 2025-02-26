@@ -2,7 +2,7 @@
 FROM odoo:16.0
 
 # Copy custom modules and configuration file
-COPY ./custom_modules /mnt/extra-addons
+COPY ./addons /mnt/extra-addons
 COPY ./odoo.conf /etc/odoo/odoo.conf.template
 
 # Copy entrypoint script
