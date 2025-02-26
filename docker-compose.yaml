@@ -1,24 +1,31 @@
 version: '3.1'
 services:
   odoo:
-    image: odoo:16.0
-    env_file: .env
-    depends_on:
-      - psql
+    build: .
     ports:
-      - "8069:8069" #port mapping(custom-port:8069)
+      - "8069:8069"
+    environment:
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_NAME=${DB_NAME}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD}
     volumes:
-      - data:/var/lib/odoo
-      - ./:/etc/odoo
-      - ./addons:/mnt/extra-addons
-    entrypoint: ["/bin/bash", "-c", "odoo -u custom_product_page --without-demo=all"]
+      - odoo-data:/var/lib/odoo
+    depends_on:
+      - db
 
-  psql:
-    image: postgres:13
-    env_file: .env
-    volumes:
-      - db:/var/lib/pgsql/data/pgdata
-volumes:
-  data:
   db:
+    image: postgres:13
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
 
+volumes:
+  odoo-data:
+  odoo-logs:
+  postgres-data:

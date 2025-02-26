@@ -1,20 +1,15 @@
-# Use the official Python image
-FROM python:3.12
+# Use the official Odoo image as the base
+FROM odoo:16.0
 
-# Set the working directory inside the container
-WORKDIR /app
+# Create directories for logs and data
+RUN mkdir -p /var/log/odoo && \
+    mkdir -p /var/lib/odoo
 
-# Copy the requirements file
-COPY requirements.txt .
+# Copy custom modules and configuration file
+COPY ./addons /mnt/extra-addons
 
-# Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+# Expose the Odoo port
+EXPOSE 8069
 
-# Copy the application files
-COPY . .
-
-# Ensure Odoo is installed
-RUN python -c "import odoo; print(odoo.__version__)"
-
-# Set execute permissions for odoo-bin
-RUN chmod +x odoo-bin
+# Set the default command to run Odoo
+CMD ["odoo"]
