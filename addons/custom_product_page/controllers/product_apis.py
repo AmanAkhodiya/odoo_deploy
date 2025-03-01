@@ -17,7 +17,7 @@ class ProductAPIController(http.Controller):
 
     #     return user
 
-    @http.route('/api/products', auth='none', methods=['GET'], type='json')
+    @http.route('/api/products', auth='public', methods=['GET'], type='http')
     def get_products(self, **kwargs):
         # user = self._authenticate()
         # if isinstance(user, dict):  # Authentication failed
@@ -31,13 +31,13 @@ class ProductAPIController(http.Controller):
         } for product in products]
         return product_list
     
-        @http.route('/api/product/<int:product_id>', auth='public', methods=['GET'], type='json')
-        def get_product(self, product_id, **kwargs):
-            product = request.env['product.template'].sudo().browse(product_id)
-            if not product.exists():
-                return {'error': 'Product not found'}
-            return {
-                'id': product.id,
-                'name': product.name,
-                'price': product.list_price
-            }
+    @http.route('/api/product/<int:product_id>', auth='public', methods=['GET'], type='json')
+    def get_product(self, product_id, **kwargs):
+        product = request.env['product.template'].sudo().browse(product_id)
+        if not product.exists():
+            return {'error': 'Product not found'}
+        return {
+            'id': product.id,
+            'name': product.name,
+            'price': product.list_price
+        }
