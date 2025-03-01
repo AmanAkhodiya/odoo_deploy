@@ -5,7 +5,7 @@
     'depends': ['website_sale'],
     'author': 'Aman Akhodiya',
     'data': [
-        'views/product_page.xml',
+        # 'views/product_page.xml',
     ],
     'assets': {
         'web.assets_frontend': [
