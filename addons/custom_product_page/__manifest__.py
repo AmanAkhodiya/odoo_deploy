@@ -9,7 +9,7 @@
     ],
     'assets': {
         'web.assets_frontend': [
-            'custom_product_page/static/src/css/custom_style.css',
+            # 'custom_product_page/static/src/css/custom_style.css',
         ]
     },
     'license': 'LGPL-3',
