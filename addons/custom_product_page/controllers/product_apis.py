@@ -4,42 +4,18 @@ import json
 
 class ProductAPIController(http.Controller):
 
-    # def _authenticate(self):
-    #     """Check if the request contains a valid API token."""
-    #     token = request.httprequest.headers.get('Authorization')
-    #     if not token:
-    #         return {'error': 'Missing API Token'}
-        
-    #     # Validate token against Odoo users
-    #     user = request.env['res.users'].sudo().search([('api_token', '=', token)])
-    #     if not user:
-    #         return {'error': 'Invalid API Token'}
-
-    #     return user
-
-    @http.route('/api/products', auth='public', methods=['GET'], type='json')
-    def get_products(self, **kwargs):
-        # user = self._authenticate()
-        # if isinstance(user, dict):  # Authentication failed
-        #     return user
-
+    @http.route('/api/products', type='http', auth='public', methods=['GET'])
+    def get_products(self):
         products = request.env['product.template'].sudo().search([])
-        product_list = [{
-            'id': product.id,
-            'name': product.name,
-            'price': product.list_price
-        } for product in products]
-        return Response(json.dumps(product_list), content_type="application/json", status=200)
-    
-    @http.route('/api/product/<int:product_id>', auth='public', methods=['GET'], type='json')
-    def get_product(self, product_id, **kwargs):
+        result = [{'id': prod.id, 'name': prod.name, 'price': prod.list_price} for prod in products]
+
+        return Response(json.dumps(result), content_type="application/json", status=200)
+
+    @http.route('/api/product/<int:product_id>', type='http', auth='public', methods=['GET'])
+    def get_product(self, product_id):
         product = request.env['product.template'].sudo().browse(product_id)
         if not product.exists():
-            return {'error': 'Product not found'}
-        result = {
-            'id': product.id,
-            'name': product.name,
-            'price': product.list_price
-        }
-        
+            return Response(json.dumps({'error': 'Product not found'}), content_type="application/json", status=404)
+
+        result = {'id': product.id, 'name': product.name, 'price': product.list_price}
         return Response(json.dumps(result), content_type="application/json", status=200)
